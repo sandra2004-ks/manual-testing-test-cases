@@ -50,3 +50,26 @@ Record any defects found with the following details:
 ## Conclusion
 
 This project is intended to demonstrate beginner-level manual testing documentation. Test results and defect reports will be updated after actual execution.
+
+
+## Test Execution Results
+
+**Application:** The Internet — Login Page  
+**URL:** https://the-internet.herokuapp.com/login  
+**Browser:** Google Chrome  
+**Testing Type:** Manual Testing
+
+| Test Case ID | Test Scenario    | Actual Result                                   | Status                           |
+|--------------|------------------|-------------------------------------------------|----------------------------------|
+| TC_LOGIN_001 | Valid login      | Login was successful                            | PASS                             |
+| TC_LOGIN_002 | Invalid password | An error message was displayed                  | PASS                             |
+| TC_LOGIN_003 | Empty fields     | An invalid username error message was displayed | PASS - Verify expected behaviour |
+| TC_LOGIN_004 | Logout           | User returned to the login page                 | PASS                             |
+
+### Testing Summary
+
+- Total test cases executed: 4
+- Passed: 4 (pending verification of TC_LOGIN_003)
+- Failed: 0
+
+**Note:** The results above are based on my manual execution. The empty-field test requires confirmation against the expected behaviour before its final status is recorded.
