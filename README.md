@@ -51,9 +51,14 @@ Contains a sample defect report format with reproduction steps, expected results
 - Positive and Negative Testing
 - GitHub for Project Documentation
 
+
 ## Current Project Status
 
-Documentation prepared. Test execution and result validation are pending.
+- Documentation: Completed
+- Test case design: Completed
+- Test execution: Completed for the executed login test cases
+- Result validation: completed
+- Sample bug report: Prepared
 
 ## About Me
 
